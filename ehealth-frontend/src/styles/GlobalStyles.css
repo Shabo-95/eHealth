@@ -1,0 +1,82 @@
+.MuiFormHelperText-contained {
+  margin-left: 0px !important;
+}
+
+.MuiGrid-container {
+  height: 100% !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #212e53;
+}
+/*Default (Im normalen Fall)*/
+.MuiTableCell-root {
+  font-size: 0.94rem !important;
+}
+
+/* Seite Responisive machen (z.B. für IPad) */
+
+@media only screen and (max-width: 1330px) {
+  .MuiTableCell-root {
+    font-size: 0.875rem !important;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+}
+
+@media only screen and (max-width: 1140px) {
+  .MuiTableCell-root {
+    font-size: 0.825rem !important;
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+  }
+}
+
+@media only screen and (max-width: 1060px) {
+  .MuiTableCell-root {
+    font-size: 0.8rem !important;
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .MuiTableCell-root {
+    font-size: 0.78rem !important;
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .MuiTableCell-root {
+    font-size: 0.8rem !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .MuiTableCell-root {
+    font-size: 0.8rem !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+}
+
+@media only screen and (max-width: 723px) {
+  .MuiTableCell-root {
+    font-size: 0.78rem !important;
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+  }
+}
